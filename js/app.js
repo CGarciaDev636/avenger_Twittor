@@ -1,5 +1,5 @@
 let url= window.location.href
-let swLocation = 'nombre_repositorio/sw.js'
+let swLocation = 'avenger_Twittor/sw.js'
 
 if(navigator.serviceWorker){
     if(url.includes('localhost')|| url.includes('127.0.0.1')){
